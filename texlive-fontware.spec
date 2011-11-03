@@ -1,5 +1,11 @@
+# revision 23089
+# category TLCore
+# catalog-ctan undef
+# catalog-date undef
+# catalog-license undef
+# catalog-version undef
 Name:		texlive-fontware
-Version:	20111102
+Version:	20111103
 Release:	1
 Summary:	TeXLive fontware package
 Group:		Publishing
@@ -27,6 +33,7 @@ TeXLive fontware package.
 %doc %{_texmfdir}/doc/man/man1/vftovp.man1.pdf
 %doc %{_mandir}/man1/vptovf.1*
 %doc %{_texmfdir}/doc/man/man1/vptovf.man1.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -36,6 +43,8 @@ TeXLive fontware package.
 
 %install
 mkdir -p %{buildroot}%{_datadir}
-cp -fpar texmf  %{buildroot}%{_datadir}
+cp -fpar texmf %{buildroot}%{_datadir}
 mkdir -p %{buildroot}%{_mandir}/man1
 mv %{buildroot}%{_texmfdir}/doc/man/man1/*.1 %{buildroot}%{_mandir}/man1
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
