@@ -1,12 +1,12 @@
-# revision 29764
+# revision 33736
 # category TLCore
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-fontware
-Version:	20131012
-Release:	6
+Version:	20140619
+Release:	1
 Summary:	TeXLive fontware package
 Group:		Publishing
 URL:		http://tug.org/texlive
