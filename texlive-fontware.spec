@@ -5,8 +5,8 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-fontware
-Version:	20140619
-Release:	4
+Version:	20171106
+Release:	1
 Summary:	TeXLive fontware package
 Group:		Publishing
 URL:		http://tug.org/texlive
