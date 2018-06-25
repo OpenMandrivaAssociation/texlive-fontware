@@ -5,7 +5,7 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-fontware
-Version:	20171106
+Version:	20180331
 Release:	1
 Summary:	TeXLive fontware package
 Group:		Publishing
