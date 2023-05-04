@@ -1,6 +1,6 @@
 Name:		texlive-fontware
-Version:	62387
-Release:	2
+Version:	66186
+Release:	1
 Summary:	TeXLive fontware package
 Group:		Publishing
 URL:		http://tug.org/texlive
