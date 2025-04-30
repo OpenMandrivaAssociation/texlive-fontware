@@ -1,5 +1,5 @@
 Name:		texlive-fontware
-Version:	70015
+Version:	73848
 Release:	1
 Summary:	TeXLive fontware package
 Group:		Publishing
